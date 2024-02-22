@@ -28,7 +28,7 @@ export function TRPCProvider({ children }: TRPCProviderProps): ReactElement {
   let url = "http://localhost:3000/trpc";
 
   if (process.env.NODE_ENV === "production") {
-    url = "https://p584jn9maj.execute-api.us-east-1.amazonaws.com/prod/trpc";
+    url = "https://cdk-exercise-api.services.appointedd.com/trpc";
   }
 
   const [trpcClient] = useState(() =>
