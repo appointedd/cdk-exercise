@@ -1,5 +1,5 @@
 {
-  "name": "Appointedd UI Programming Challenge",
+  "name": "appointedd/cdk-exercise",
   "runArgs": ["--init"],
   "build": {
     "dockerfile": "Dockerfile"

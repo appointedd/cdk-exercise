@@ -1,0 +1,3 @@
+{
+  "app": "tsx --tsconfig cdk/tsconfig.json cdk/src/index.ts"
+}
